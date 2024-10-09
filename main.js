@@ -4,10 +4,6 @@ AOS.init({
   once: true,
   offset: 200,
 });
-// Loading
-window.addEventListener("load", function () {
-  document.querySelector(".loading").classList.add("hide");
-});
 //Project Filters
 document.addEventListener("DOMContentLoaded", function () {
   let projectFilters = document.querySelectorAll("#project-filters li");

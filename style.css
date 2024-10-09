@@ -18,57 +18,6 @@ body {
   line-height: 1.7;
   color: var(--body);
 }
-/* Start Loading  */
-.loading {
-  overflow: hidden;
-  position: fixed;
-  z-index: 9999;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: 8s;
-  -webkit-transition: 8s;
-  -moz-transition: 8s;
-  -ms-transition: 8s;
-  -o-transition: 8s;
-  transition-delay: 8s;
-}
-.loading.hide {
-  opacity: 0;
-  visibility: hidden;
-}
-.lds-dual-ring,
-.lds-dual-ring:after {
-  box-sizing: border-box;
-}
-.lds-dual-ring {
-  display: inline-block;
-  width: 80px;
-  height: 80px;
-}
-.lds-dual-ring:after {
-  content: " ";
-  display: block;
-  width: 64px;
-  height: 64px;
-  margin: 8px;
-  border-radius: 50%;
-  animation: lds-dual-ring 8s linear infinite;
-  -webkit-animation: lds-dual-ring 8s linear infinite;
-}
-@keyframes lds-dual-ring {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
-/* End Loading  */
 /* Start NavBar  */
 img {
   width: 100%;
