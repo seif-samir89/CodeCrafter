@@ -20,6 +20,7 @@ body {
 }
 /* Start Loading  */
 .loading {
+  overflow: hidden;
   position: fixed;
   z-index: 9999;
   left: 0;
