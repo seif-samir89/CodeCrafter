@@ -17,6 +17,7 @@ body {
   font-family: "Montserrat", sans-serif;
   line-height: 1.7;
   color: var(--body);
+  overflow-x: hidden;
 }
 /* Start NavBar  */
 img {
