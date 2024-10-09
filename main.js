@@ -1,11 +1,16 @@
+// Animation
 AOS.init({
   duration: 1000,
   once: true,
   offset: 200,
 });
-//
+// Loading
+window.addEventListener("load", function () {
+  document.querySelector(".loading").classList.add("hide");
+});
+//Project Filters
 document.addEventListener("DOMContentLoaded", function () {
-  let projectFilters = document.querySelectorAll("#project-flters li");
+  let projectFilters = document.querySelectorAll("#project-filters li");
   let projectItems = document.querySelectorAll(".project-item");
 
   projectFilters.forEach((filter) => {
@@ -34,3 +39,4 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 });
+//
